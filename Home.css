@@ -1,0 +1,135 @@
+/* header starts */
+.header{
+    background-color: rgba(208, 225, 28, 0.775);
+}
+nav img{
+    width: 5vw;
+}
+nav li{
+    padding-left: 2vw;
+}
+nav li:hover{
+    transform: scale(1.1);
+    font-weight: bolder;
+}
+nav form{
+    padding-left: 15vw;
+}
+/* header ends */
+/* home starts */
+.home img{
+    height: 90vh;
+}
+.home .p{
+    font-size: 5vw;
+    font-style: italic;
+}
+.col{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    transition:transform 0.7s ;
+    border-radius: 10px;
+}
+.col:hover{
+    border: 1px solid green;
+    box-shadow: 0px 8px rgb(27, 169, 12);
+    transform: translate(0px, -15px);
+}
+.col img{
+    height: 55vh;
+    width: 23vw;
+    border-radius: 10px;
+}
+.rating{
+    
+    border: .5px solid rgb(5, 226, 9);
+    color: rgb(244, 238, 238);
+    background-color:rgb(27, 169, 12);
+    width: 30px;
+    border-radius: 25%;
+    font-weight: bolder;
+    height: 4vh;
+    
+}
+.btn{
+    background-color: rgb(27, 169, 12);
+    border-radius: 10%;
+    color: rgb(244, 242, 242);
+    font-weight: bolder;
+    padding:0.4vh;
+    width: 15vw;
+    margin-top: 1vh;
+}
+.btn:hover{
+    transform: scale(1.11);
+    border-color: black;
+}
+/* home ends */
+/* contactus starts */
+.center{
+    text-align: center;
+}
+.col1 image{
+    height: 55px;
+    width: 23vw;
+    border-radius: 10%;
+}
+.col1{
+    margin: 5vh 0vw 5vh 11vw;
+    text-align: center;
+    border-radius: 10px;
+    height: 70vh;
+    transition:transform 1s ;
+}
+.cus{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col1:hover{
+    border: 1px solid green;
+    box-shadow: 8px 8px rgb(27, 169, 12);
+    transform: translate(10px,10px);
+}
+/* contact ends */
+/* footer starts */
+.footer{
+    background-color: rgb(236, 196, 146);
+    height: 55vh;
+    margin-top: 5vh;
+    padding-top: 5vh;
+}
+.socialmedia{
+    display: flex;
+    flex-wrap: wrap;
+}
+.socialmedia a{
+    margin-left: 5vw;
+}
+.socialmedia a:hover{
+transform: scale(1.1);
+color: rgb(27, 169, 12);
+}
+.f-link{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2vw;
+}
+.f-link img{
+    width: 10vw;
+    height: 10vh;
+}
+.f-link-a{
+    margin-left: 2%;
+}
+.f-link-a a{
+    padding-left: 7vw;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+.f-link-a a:hover{
+    color: rgb(136, 6, 222);
+    
+}
+
+/* footer ends */

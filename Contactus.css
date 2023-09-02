@@ -1,0 +1,89 @@
+/* header starts */
+.header{
+    background-color: rgba(208, 225, 28, 0.775);
+}
+nav img{
+    width: 5vw;
+}
+nav li{
+    padding-left: 3vw;
+}
+nav li:hover{
+    transform: scale(1.1);
+    font-weight: bolder;
+}
+nav form{
+    padding-left: 15vw;
+}
+/* header ends */
+/* contactus starts */
+
+form div{
+    margin-top: 5vh;
+}
+.contactus{
+    background-image: url(./contact\ bg.jpg);
+    background-size: 100% 100%;
+    height: 95Vh;
+    padding-top: 10vh;
+}
+.contactus label{
+    font-weight: bolder;
+}
+.form-control{
+   background: transparent;
+
+}
+.btn-primary{
+    border-radius: 10%;
+    width: 15vw;
+    
+}
+.btn-primary:hover{
+    transform: scale(1.07);
+    border-color: black;
+}
+
+/* contactus ends */
+/* footer starts */
+.footer{
+    background-color: rgb(236, 196, 146);
+    height: 55vh;
+    margin-top: 5vh;
+    padding-top: 5vh;
+}
+.socialmedia{
+    display: flex;
+    flex-wrap: wrap;
+}
+.socialmedia a{
+    margin-left: 5vw;
+}
+.socialmedia a:hover{
+transform: scale(1.1);
+color: rgb(27, 169, 12);
+}
+.f-link{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2vw;
+}
+.f-link img{
+    width: 10vw;
+    height: 10vh;
+}
+.f-link-a{
+    margin-left: 2%;
+}
+.f-link-a a{
+    padding-left: 7vw;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+.f-link-a a:hover{
+    color: rgb(136, 6, 222);
+    
+}
+
+/* footer ends */
